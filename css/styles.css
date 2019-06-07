@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+/******************** PAGINA PRINCIPAL ************************/
+
+/******** logo ************/
+
+header{
+      background-color: red;
+      line-height: 40px;
+      margin-top: 5px;
+}
+
+nav{
+    display: inline-block;
+}
+
+.logo{
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-self: center;
+
+}
+
+.headeritems{list-style-type: none;
+            color: white;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+            align-self: center;
+
+}
+
+.headeritems li{
+
+            display: inline-block;
