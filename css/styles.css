@@ -54,23 +54,39 @@ nav{
 /************************** MAINNNNN *****************/
 
 
+.MasterContainer{
+                display: flex;
+                align-items: stretch;
+}
+
 .flex-container{
 
-          display: flex;
+          display: inline-flex;
           flex-direction:row;
-
-
-
-
-
-
-
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          width: 70%;
+          padding: 10px;
 }
 
 .Celulares  {
             background-color: white;
-            padding: 10px;
+            padding: 30px;
+            width: 50%;
 
+}
 
+.Celulares img{
+            width:100%;
+}
+.a-side{
+        width: 25%;
+        display:inline-flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+
+        padding: 30px;
 
 }
